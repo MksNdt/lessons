@@ -6,9 +6,9 @@ public class task6 {
     }
     public static void printNumberSign(int number) {
         if (number >= 0) {
-            System.out.println("Число положительное");
+            System.out.println("The number is positive");
         } else {
-            System.out.println("Число отрицательное");
+            System.out.println("The number is negative");
         }
     }
 }
