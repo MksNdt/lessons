@@ -1,14 +1,17 @@
 public class task3 {
     public static void main(String[] args) {
-        int value = 100;
+        printColor();
+    }
+    public static void printColor() {
+        int value = -1;
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("Red");
         }
-        if (value <= 100) {
-            System.out.println("Желтый");
+        if (value <= 100 && value > 0) {
+            System.out.println("Yellow");
         }
         if (value > 100) {
-            System.out.println("Зеленый");
+            System.out.println("Green");
         }
     }
 }
