@@ -1,12 +1,9 @@
-public class task5 {
+class task5 {
     public static void main(String[] args) {
-        int a = 7;
-        int b = 7;
+        System.out.println(isSumInRange(13, 13));
+    }
+    public static boolean isSumInRange(int a, int b) {
         int sum = a + b;
-        if (sum >= 10 && sum <= 20) {
-            System.out.println("true");
-        }
-        else
-            System.out.println("false");
+        return sum >= 10 && sum <= 20;
     }
 }
