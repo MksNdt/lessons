@@ -1,10 +1,14 @@
 public class task6 {
     public static void main(String[] args) {
-        int a = -5;
-        if (a >= 0) {
-            System.out.println("Число " + a + " положительное");
+        printNumberSign(-5);
+        printNumberSign(5);
+        printNumberSign(0);
+    }
+    public static void printNumberSign(int number) {
+        if (number >= 0) {
+            System.out.println("Число положительное");
+        } else {
+            System.out.println("Число отрицательное");
         }
-        else
-            System.out.println("Число " + a + " отрицательное");
     }
 }
